@@ -1,0 +1,5 @@
+# filter_list = [1, 2, a, b] = [1, 2] 
+#using list comprehension    #[ item for item in list if condition]
+
+def filter_list(l):
+return [i for i in l if type(x) is not str]    
